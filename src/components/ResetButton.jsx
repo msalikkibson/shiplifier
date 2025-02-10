@@ -1,12 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const ResetButton = ({ onReset }) => {
-    return (
-      <button className="reset-button" onClick={onReset}>
-        Reset
-      </button>
-    );
-  };
-  
+  return (
+    <button className="reset-button" onClick={onReset}>
+      Reset
+    </button>
+  );
+};
 
-export default ResetButton
+export default ResetButton;
