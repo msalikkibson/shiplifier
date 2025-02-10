@@ -1,0 +1,33 @@
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: white;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.box.active {
+  background-color: black;
+}
+
+.box.inactive {
+  background-color: white;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.header{
+  text-align: center;
+}
